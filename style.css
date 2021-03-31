@@ -1,0 +1,22 @@
+.body {
+    display: grid;
+    grid-template-columns: 128px auto repeat(4 1fr);
+    grid-template-rows: 1fr auto 150px;
+    grid-template-areas:
+    "h h h"
+    "c c c"
+    "f f f";
+}
+
+.header {
+    grid-area: "h";
+
+}
+
+.content {
+    grid-area: "h";
+}
+
+.footer {
+    grid-area: "f";
+}
