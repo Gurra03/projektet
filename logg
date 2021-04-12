@@ -1,0 +1,48 @@
+22 Mars 2021: Vi fick information om projektet och jag började fundera på ämne samt målgrupp. Jag kom fram till att göra en webbplats om konservatism med målgruppen gymnasieelever.
+
+25 Mars: Jag la upp layouten för hur sidan skulle se ut samt att jag skapade html filen till självaste startsidan. Gjorde även huvudlayouten som ser ut på följande vis:
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konservatism</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="body">
+        <nav class="slide" id="nav">
+            <span id="x">⇩</span>
+            <a href="index.html">Hem</a>
+            <a href="">Historia</a>
+            <a href="">Inriktningar</a>
+            <a href="">Partier</a>
+        </nav>
+            <header class = "header">
+                <img src="bilder/logo-projekt.png" alt="blå flagga">
+                <h1>Konservatism</h1>
+            </header>
+            <content class="">
+            </content>
+        </div>
+        <div class="footer">
+            <p>footer</p>
+        </div>
+    </div>
+    <script src="nav.js"></script>
+</body>
+</html>
+
+28 Mars: Blev färdig med layouten samt att jag började koda upp layouten på sidan med hjälp av CSS och HTML, hade inte börjat än på navbaren.
+
+31 Mars: Började med griden på startsidan men den gick inte bra, har fortfarande inte börjat med navbaren.
+
+1 April: Jag lyckades få till griden samt att jhag började med navbaren och navbaren ville inte fungera som jag ville. Vet inte lösnignen på problemet just nu.
+
+8 April: Med hjälp av media quieries lyckades jag lösa hur min sida ser ut på de olika upplösningarna, navbaren är fortfarande trasig och jag har fortfarande inte hittat hur den ska lösas.
+
+12 April: Hela startsidan är i princip färdig, navbaren hittade jag lösningen på och nu fungerar den som den ska. Griden är anpassad på ett bra sätt efter de olika upplösningarna och det verkar inte vara något problem. Jag kommer nu börja på de olika sidorna som man kan klicka in sig på med hjälp av navbaren.
