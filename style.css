@@ -71,6 +71,10 @@ justify-content: center;
     width: 100%;
 }
 
+content {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /*GLOBAL HEADER*/
 .header {
     grid-area: h;
@@ -139,6 +143,35 @@ justify-content: center;
 .open {
     top: 150;
     box-shadow: 5px 0 5px 0 rgba(50,50,50, .4);
+}
+
+
+/*CONTENT HISTORY*/
+.history_content {
+    grid-area: c;
+    display: grid;
+    grid-template-columns: 500px auto;
+    grid-template-rows: repeat(2, 600px);
+    grid-template-areas: 
+    "hb1 ht"
+    "hb2 ht";
+}
+
+.history_content img {
+    width: 400px;
+    height: auto;
+}
+
+.history_content_img1 {
+    grid-area: hb1;
+}
+
+.history_content_text {
+    grid-area: ht;
+}
+
+.history_content_img2 {
+    grid-area: hb2;
 }
 
 /*2K*/
