@@ -62,7 +62,7 @@ body{
 .body {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 300px auto 275px;
+    grid-template-rows: 300px 1fr 275px;
     grid-template-areas:
     "h"
     "c"
@@ -83,6 +83,10 @@ content {
     color: white;
     display: flex;
     align-items: center;
+}
+
+.header a {
+    color: white;
 }
 
 .header h1 {

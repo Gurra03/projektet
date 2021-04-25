@@ -22,16 +22,15 @@
             <a href="inriktningar.html">Inriktningar</a>
             <a href="">Partier</a>
         </nav>
-            <header class = "header">
+        <header class = "header">
                 <img src="bilder/logo-projekt.png" alt="blå flagga">
                 <h1>Konservatism - Inriktningar</h1>
-            </header>
-            <content class="">
-            </content>
-        </div>
-        <div class="footer">
-            <p>footer</p>
-        </div>
+        </header>
+        <content class="">
+        </content>
+    </div>
+    <div class="footer">
+        <p>footer</p>
     </div>
     <script src="nav.js"></script>
 </body>
@@ -52,3 +51,5 @@
 19 April: Fixade färdigt upplösningarna till historie sidan samt att jag fixade och anpassade navbaren efter de olika upplösningar som finnns. Jag skapade även filen för inriktningar som kommer förgrena sig in i Socialkonservatism, Liberalkonservatism, Frihetlig Konservatism och Kulturkonservatism.
 
 22 April: Blev färdig med förgreningssidan för de olika inriktningarna samt att jag skapade individuella sidor för just de olika inriktningarna som även är länkade i förgreningssidan. Såg att jag behöver städa upp i CSS koden då jag har onödigt mycket kopior av samma kod.
+
+25 April: Gjorde grunden till de individuellainriktningarna inom konservatism, la även in bilder och fixade till en länk till index sidan i rubriken samt fixade så att färgen inte blev blå eller lila när den klickades utan att den skulle vara vit.
