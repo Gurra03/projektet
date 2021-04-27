@@ -55,3 +55,5 @@
 25 April: Gjorde grunden till de individuellainriktningarna inom konservatism, la även in bilder och fixade till en länk till index sidan i rubriken samt fixade så att färgen inte blev blå eller lila när den klickades utan att den skulle vara vit.
 
 26 April: Fixade till griden i inriktningarna samt försökte rensa upp CSS koden men upptäckte att sidan blev väldigt buggig när jag skulle rensa upp i koden så jag lät koden vara som den är. Sedan ville inte griden fungera för mig och jag kan inte få texten under bilden att gå över både kolumnerna som jag har satt ut.
+
+27 April: Fixade problemet med att griden inte spannade över hela som den skulle, fixade även anpassning för alla upplösningar förutom på mobilen och när mobilen är vänd.
