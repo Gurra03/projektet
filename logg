@@ -56,4 +56,7 @@
 
 26 April: Fixade till griden i inriktningarna samt försökte rensa upp CSS koden men upptäckte att sidan blev väldigt buggig när jag skulle rensa upp i koden så jag lät koden vara som den är. Sedan ville inte griden fungera för mig och jag kan inte få texten under bilden att gå över både kolumnerna som jag har satt ut.
 
-27 April: Fixade problemet med att griden inte spannade över hela som den skulle, fixade även anpassning för alla upplösningar förutom på mobilen och när mobilen är vänd.
+27 April: 
+    Pass 1: Fixade problemet med att griden inte spannade över hela som den skulle, fixade även anpassning för alla upplösningar förutom på mobilen och när mobilen är vänd.
+
+    Pass 2: Fixade till ett fält med länkar till inriktningarna men själva kdoen blev konstig då footern hamnade i bilden, var tvungen att rensa en stor del av CSS koden men är fortfarande osäker på hur CSSen till navbaren ska ränsas. Fältet med länkar till de olika inriktningarna är inte där jag vill ha den så det får jag kolla på nästa gång.
