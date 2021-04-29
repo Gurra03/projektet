@@ -61,16 +61,14 @@ body{
 .body {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 300px 100px 1fr 250px;
+    grid-template-rows: 250px 1fr 250px;
     grid-template-areas:
     "h"
-    "i"
     "c"
     "f";
     width: 100%;
     min-height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
 }
 
 /*GLOBAL HEADER*/
@@ -99,27 +97,6 @@ body{
     padding: 10px;
     width: 7%;
     height: auto;
-}
-
-/*INRIKTNINGAR*/
-.inriktningar {
-    grid-area: i;
-    grid-column: 1 / -1;
-    height: 100px;
-    background-color: #c4623b;
-    padding: 10px;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    font-size: 250%;
-    font-family: 'Source Serif Pro', serif;
-    color: white;
-}
-
-.inriktningar a {
-    color: white;
 }
 
 /*CONTENT-INDEX*/
@@ -204,8 +181,9 @@ body{
 .inriktningar_content {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 50px repeat(4, 1fr);
+    grid-template-rows: auto 50px repeat(4, 1fr);
     grid-template-areas: 
+    "i"
     "ii"
     "lk"
     "sk"
@@ -214,6 +192,8 @@ body{
     padding: 5px;
     margin: 5px;
 }
+
+
 .inriktningar_info {
     grid-area: ii;
 }
@@ -223,7 +203,6 @@ body{
 }
 
 .inriktningar_content a {
-    color: black;
     cursor: pointer;
 }
 
@@ -239,26 +218,45 @@ body{
     grid-area: sk;
 }
 
-.inriktningar_kk {
+.inriktningar_kk  {
     grid-area: kk;
 }
 
-.inriktningar_fk {
+.inriktningar_fk  {
     grid-area: fk;
+}
+
+.inriktningar_lk a {
+    grid-area: lk;
+    color: black;
+}
+
+.inriktningar_sk a {
+    grid-area: sk;
+    color: black;
+}
+
+.inriktningar_kk a {
+    grid-area: kk;
+    color: black;
+}
+
+.inriktningar_fk a {
+    grid-area: fk;
+    color: black;
 }
 
 .fördjupning_inriktningar_content {
     display: grid;
     grid-template-columns: 600px 1fr;
-    grid-template-rows: 950px 1fr;
-    grid-template-areas: 
+    grid-template-rows: auto 950px 1fr;
+    grid-template-areas:
+    "i i"
     "fb ft1"
-    "ft2 ft2"
-    ;
+    "ft2 ft2";
     margin: 5px;
     padding: 5px;
 }
-
 
 .fördjupning_inriktningar_img {
     grid-area: fb;
@@ -289,6 +287,26 @@ body{
 
 .fördjupning_inriktningar_text2 p {
     font-size: 250%;
+}
+
+.inriktningar {
+    grid-area: i;
+    grid-column: 1 / -1;
+    height: 100px;
+    background-color: #c4623b;
+    padding: 10px;
+    margin: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 250%;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.inriktningar a {
+    color: white;
 }
 
 /*2K*/
@@ -421,11 +439,11 @@ body{
     .fördjupning_inriktningar_content {
         display: grid;
         grid-template-columns: 600px 1fr;
-        grid-template-rows: 950px 1fr;
+        grid-template-rows: auto 950px 1fr;
         grid-template-areas: 
+        "i i"
         "fb ft1"
-        "ft2 ft2"
-        ;
+        "ft2 ft2";
     }
     
     
@@ -592,8 +610,9 @@ body{
     .fördjupning_inriktningar_content {
         display: grid;
         grid-template-columns: 600px 1fr;
-        grid-template-rows: 950px 1fr;
+        grid-template-rows: auto 950px 1fr;
         grid-template-areas: 
+        "i i"
         "fb ft1"
         "ft2 ft2";
     }
@@ -605,10 +624,12 @@ body{
     
     .fördjupning_inriktningar_text1 {
         grid-area: ft1;
+        font-size: 90%;
     }
     
     .fördjupning_inriktningar_text2 {
         grid: ft2;
+        font-size: 90%;
     }
 }
 
@@ -759,8 +780,9 @@ body{
     .fördjupning_inriktningar_content {
         display: grid;
         grid-template-columns: 600px 1fr;
-        grid-template-rows: 950px 1fr;
+        grid-template-rows: auto 950px 1fr;
         grid-template-areas: 
+        "i i"
         "fb ft1"
         "ft2 ft2"
         ;
@@ -777,6 +799,115 @@ body{
     
     .fördjupning_inriktningar_text2 {
         grid: ft2;
+    }
+
+    .inriktningar {
+        font-size: 200%;
+    }
+}
+
+/*TABLETS*/
+@media screen and (max-width: 1200px) {
+    .content {
+        grid-area: c;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 450px 1fr 1fr;
+        grid-template-areas: 
+        "b"
+        "t"
+        "l";
+    }
+    .content_img {
+        grid-area: b;
+    }
+    
+    .content_text {
+        grid-area: t;
+    }
+    
+    .content_link {
+        grid-area: l;
+    }
+    
+    .history_content {
+        grid-area: c;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 600px 1fr 600px;
+        grid-template-areas: 
+        "hb1"
+        "ht"
+        "hb2";
+    }
+    
+    .history_content_img1 {
+        grid-area: hb1;
+    }
+    
+    .history_content_text {
+        grid-area: ht;
+    }
+    
+    .history_content_img2 {
+        grid-area: hb2;
+    }
+    .inriktningar_content {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(4, 1fr);
+        grid: area
+        "lk"
+        "sk"
+        "kk"
+        "fk";
+    }
+    
+    .inriktningar_lk {
+        grid-area: lk;
+    }
+    
+    .inriktningar_sk {
+        grid-area: sk;
+    }
+    
+    .inriktningar_kk {
+        grid-area: kk;
+    }
+    
+    .inriktningar_fk {
+        grid-area: fk;
+    }
+
+    .fördjupning_inriktningar_content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto repeat(2, 1fr);
+        grid-template-areas: 
+        "i"
+        "fb"
+        "ft1" 
+        "ft2";
+    }
+    
+    .fördjupning_inriktningar_img {
+        grid-area: fb;
+    }
+    
+    .fördjupning_inriktningar_text1 {
+        grid-area: ft1;
+        font-size: 65%;
+    }
+    
+    .fördjupning_inriktningar_text2 {
+        grid: ft2;
+        font-size: 65%;
+    }
+
+    .inriktningar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
     }
 }
 
@@ -911,8 +1042,9 @@ body{
     .fördjupning_inriktningar_content {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 900px repeat(2, 1fr);
+        grid-template-rows: auto auto repeat(2, 1fr);
         grid-template-areas: 
+        "i"
         "fb"
         "ft1" 
         "ft2";
@@ -924,10 +1056,18 @@ body{
     
     .fördjupning_inriktningar_text1 {
         grid-area: ft1;
+        font-size: 65%;
     }
     
     .fördjupning_inriktningar_text2 {
         grid: ft2;
+    }
+
+    .inriktningar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
     }
 }
 
@@ -1058,8 +1198,9 @@ body{
     .fördjupning_inriktningar_content {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 850px repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto) repeat(2, 1fr);
         grid-template-areas: 
+        "i"
         "fb"
         "ft1" 
         "ft2";
@@ -1076,5 +1217,12 @@ body{
     
     .fördjupning_inriktningar_text2 {
         grid: ft2;
+    }
+
+    .inriktningar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
     }
 }
