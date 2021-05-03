@@ -62,3 +62,5 @@
     Pass 2: Fixade till ett fält med länkar till inriktningarna men själva kdoen blev konstig då footern hamnade i bilden, var tvungen att rensa en stor del av CSS koden men är fortfarande osäker på hur CSSen till navbaren ska ränsas. Fältet med länkar till de olika inriktningarna är inte där jag vill ha den så det får jag kolla på nästa gång.
 
     29 April: Jobbade med att anpassa sidan bättre på de lägre uppgifterna samt att jag fixade problemet med inriktningsbaren som är till sidorna som har med inriktningar med att göra. Jag skapade även en anpassning till iPads och surfplattor rent generellt. Har fortfarande text problem när det kommer till hur sidan ser ut på iPad Pro. Kommer även börja skriva ner all fakta som ska gå till sidan snart då jag snart är färdig med själva koden.
+
+3 Maj: Valde att göra om hela CSS koden för att kunna städa upp i koden samt att minska antalet rader då över 1000 gjorde det svårt att hitta. Fixade även problemet med att footern hamnade utanför griden.
