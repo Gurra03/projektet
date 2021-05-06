@@ -171,6 +171,105 @@ body{
     font-size: 350%;
 }
 
+.inriktningar_content {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 150px 100px repeat(4, 1fr);
+    grid-template-areas: 
+    "il"
+    "ii"
+    "lk"
+    "sk"
+    "kk"
+    "fk";
+}
+
+.inriktningar a {
+    color: white;
+    font-family: 'Source Serif Pro', serif;    
+    font-size: 300%;
+}
+
+.inriktningar_info {
+    grid-area: ii;
+    font-size: 350%;
+}
+
+.inriktningar_lk {
+    grid-area: lk;
+    font-size: 350%;
+}
+
+.inriktningar_sk {
+    grid-area: sk;
+    font-size: 350%;
+}
+
+.inriktningar_kk {
+    grid-area: kk;
+    font-size: 350%;
+}
+
+.inriktningar_fk {
+    grid-area: fk;
+    font-size: 350%;
+}
+
+.fördjupning_inriktningar_content {
+    display: grid;
+    grid-template-columns: 750px 1fr;
+    grid-template-rows: 150px repeat(2, 1fr);
+    grid-template-areas:
+    "il il" 
+    "fb ft1"
+    "ft2 ft2";
+}
+
+.inriktningar {
+    grid-area: il;
+    background-color: orange;
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    column-span: 1 / -1;
+}
+
+.inriktningar_content a {
+    color: black;
+}
+
+.fördjupning_inriktningar_img {
+    grid-area: fb;
+}
+
+.fördjupning_inriktningar_img img {
+    width: 712px;
+    height: auto;
+}
+
+.fördjupning_inriktningar_img a {
+    color: black;
+}
+
+.fördjupning_inriktningar_img figcaption {
+    font-size: 250%;
+}
+
+.fördjupning_inriktningar_text1 {
+    grid-area: ft1;
+    font-size: 350%;
+    padding: 10px;
+}
+
+.fördjupning_inriktningar_text2 {
+    grid-area: ft2;
+    font-size: 350%;
+    column-span: 1 / -1;
+    padding: 10px;
+}
+
 .footer {
     grid-area: f;
     background-color: #737373;

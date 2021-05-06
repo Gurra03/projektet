@@ -64,3 +64,8 @@
     29 April: Jobbade med att anpassa sidan bättre på de lägre uppgifterna samt att jag fixade problemet med inriktningsbaren som är till sidorna som har med inriktningar med att göra. Jag skapade även en anpassning till iPads och surfplattor rent generellt. Har fortfarande text problem när det kommer till hur sidan ser ut på iPad Pro. Kommer även börja skriva ner all fakta som ska gå till sidan snart då jag snart är färdig med själva koden.
 
 3 Maj: Valde att göra om hela CSS koden för att kunna städa upp i koden samt att minska antalet rader då över 1000 gjorde det svårt att hitta. Fixade även problemet med att footern hamnade utanför griden.
+
+6 Maj: 
+    Pass 1: Fortsatte med CSS jobbet, nästan färdig med grunden till CSS koden för att sedan börja med den specifika anpassningen till de olika upplösningarna.   
+
+    Pass 2: Blev färdig med grunden för CSS koden samt att jag småbörjade på HTML koden för sidan med partier. Ska även i helgen göra färdigt anpassningen samt bli färdig med själva koden för sidan.  
