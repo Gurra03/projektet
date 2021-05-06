@@ -61,11 +61,13 @@ body{
 .body {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 300px auto 100px;
+    grid-template-rows: 300px 1fr 50px;
     grid-template-areas: 
     "h"
     "c"
     "f";
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /*HEADER*/
@@ -99,11 +101,74 @@ body{
 .content_index {
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
-    grid-template-columns: 650px 1fr;
-    grid-template-rows: 450px 1fr;
+    grid-template-columns: 1500px 1fr;
+    grid-template-rows: 950 1fr;
     grid-template-areas: 
     "ib it"
     "il it";
+}
+
+.index_img {
+    grid-area: ib;
+}
+
+.index_img img {
+    width: 1450px;
+    height: auto;
+}
+
+.index_text {
+    grid-area: it;
+    font-size: 350%;
+}
+
+.index_link {
+    grid-area: il;
+    font-size: 350%;
+}
+
+.history_content {
+    display: grid;
+    grid-template-columns: 800px 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "hb ht"
+    "hb ht";
+}
+
+.history_img {
+    grid-area: hb;    
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "b1"
+    "b2";
+}
+
+.history_img img {
+    width: 700px;
+    height: auto;
+}
+
+.history_img figcaption {
+    font-size: 300%;
+}
+
+.img1 {
+    grid-area: b1;
+}
+
+.img2 {
+    grid-area: b2;
+}
+
+.history_text {
+    grid-area: ht;
+}
+
+.history_text p {
+    font-size: 350%;
 }
 
 .footer {
