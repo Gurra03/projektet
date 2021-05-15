@@ -200,6 +200,7 @@ body{
     font-size: 350%;
 }
 
+
 .inriktningar_sk {
     grid-area: sk;
     font-size: 350%;
@@ -213,6 +214,22 @@ body{
 .inriktningar_fk {
     grid-area: fk;
     font-size: 350%;
+}
+
+.inriktningar_lk a {
+    color: black;
+}
+
+.inriktningar_sk a {
+    color: black;
+}
+
+.inriktningar_fk a {
+    color: black;
+}
+
+.inriktningar_kk a {
+    color: black;
 }
 
 .fördjupning_inriktningar_content {
@@ -234,10 +251,6 @@ body{
     align-items: center;
     padding: 10px;
     column-span: 1 / -1;
-}
-
-.inriktningar_content a {
-    color: black;
 }
 
 .fördjupning_inriktningar_img {
@@ -268,6 +281,157 @@ body{
     font-size: 350%;
     column-span: 1 / -1;
     padding: 10px;
+}
+
+.partier_content {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(12, 1fr);
+    grid-template-areas: 
+    "M"
+    "KD"
+    "SD"
+    "CDU"
+    "CSU"
+    "Tories"
+    "LR"
+    "ÖVP"
+    "PP"
+    "GOP"
+    "Fidesz"
+    "PiS";
+}
+
+.M {
+    grid-area: M;
+    font-size: 350%;
+    padding: 5px;
+}
+
+.M h2 {
+    background-color: #8ed8f8;
+    color: white;
+}
+
+.KD {
+    grid-area: KD;
+    font-size: 350%;
+    padding: 5px;
+}
+
+.KD h2 {
+    background-color: #005f9c;
+    color: white;
+}
+
+.SD {
+    grid-area: SD;
+    font-size: 350%;
+    padding: 5px;
+}
+
+.SD h2 {
+    background-color: #ffdf00;
+    color: white;
+}
+
+.CDU {
+    grid-area: CDU;
+    font-size: 350%;
+    padding: 5px;
+}
+
+.CDU h2 {
+    background-color: #ed1c24;
+    color: white;
+}
+
+.CSU {
+    grid-area: CSU;
+    font-size: 350%;
+    padding: 5px;
+}
+
+.CSU h2 {
+    background-color: #008ac5;
+    color: white;
+}
+
+.Tories {
+    grid-area: Tories;
+    font-size: 350%;
+    padding: 5px;
+}
+
+.Tories h2 {
+    background-color: #1aa0e0;
+    color: white;
+}
+
+.LR {
+    grid-area: LR;
+    font-size: 350%;
+    padding: 5px;
+}
+
+.LR h2 {
+    background-color: #202f55;
+    color: white;
+}
+
+.ÖVP {
+    grid-area: ÖVP;
+    font-size: 350%;
+    padding: 5px;
+}
+
+.ÖVP h2 {
+    background-color: #61c3d0;
+    color: white;
+}
+
+.PP {
+    grid-area: PP;
+    font-size: 350%;
+    padding: 5px;
+}
+
+.PP h2 {
+    background-color: #0056a3;
+    color: white;
+}
+
+.GOP {
+    grid-area: GOP;
+    font-size: 350%;
+    padding: 5px;
+}
+
+.GOP h2 {
+    background-color: #e81b23;
+    color: white;
+}
+
+.Fidesz {
+    grid-area: Fidesz;
+    font-size: 350%;
+    padding: 5px;
+}
+
+.Fidesz h2 {
+    background-color: #ff6a00;
+    color: white;
+}
+
+.PiS {
+    grid-area: PiS;
+    font-size: 350%;
+    padding: 5px;
+}
+
+.PiS h2 {
+    background-color: #012b7f;
+    color: white;
 }
 
 .footer {
