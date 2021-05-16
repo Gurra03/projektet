@@ -16,8 +16,6 @@ body{
     right: 0;
     
     transition: .3s ease-in-out;
-    
-    box-shadow: 5px 0 5px rgba(50, 50, 50, .4);
 }
 
 .slide a {
@@ -35,7 +33,6 @@ body{
     border-bottom-right-radius: 10px;
 
     cursor: pointer;
-    box-shadow: 5px 0 5px rgba(50, 50, 50, .4);
     
     display: block;
     height: 150px;
@@ -234,7 +231,7 @@ body{
 
 .fördjupning_inriktningar_content {
     display: grid;
-    grid-template-columns: 750px 1fr;
+    grid-template-columns: 1750px 1fr;
     grid-template-rows: 150px repeat(2, 1fr);
     grid-template-areas:
     "il il" 
@@ -258,7 +255,7 @@ body{
 }
 
 .fördjupning_inriktningar_img img {
-    width: 712px;
+    width: 1712px;
     height: auto;
 }
 
@@ -437,4 +434,433 @@ body{
 .footer {
     grid-area: f;
     background-color: #737373;
+}
+
+@media screen and (max-width: 2560px) {
+    .slide a {
+        font-size: 300%;
+    }
+
+    .content_index {
+        display: grid;
+        grid-template-columns: 1050px 1fr;
+        grid-template-rows: 635 1fr;
+    }
+
+    .index_img img {
+        width: 1000px;
+        height: auto;
+    }
+
+    .index_text {
+        font-size: 300%;
+    }
+    
+    .index_link {
+        font-size: 300%;
+    }
+
+    .history_img figcaption {
+        font-size: 250%;
+    }
+
+    .history_text p {
+        font-size: 300%;
+    }
+
+    .inriktningar a {   
+        font-size: 250%;
+    }
+
+    .inriktningar_info {
+        font-size: 300%;
+    }
+    
+    .inriktningar_lk {
+        font-size: 300%;
+    }
+    
+    .inriktningar_sk {
+        font-size: 300%;
+    }
+    
+    .inriktningar_kk {
+        font-size: 300%;
+    }
+    
+    .inriktningar_fk {
+        font-size: 300%;
+    }
+
+    .fördjupning_inriktningar_content {
+        grid-template-columns: 1050px 1fr;
+    }
+
+    .fördjupning_inriktningar_img img {
+        width: 1000px;
+        height: auto;
+    }
+
+    .fördjupning_inriktningar_img figcaption {
+        font-size: 200%;
+    }
+    
+    .fördjupning_inriktningar_text1 {
+        font-size: 300%;
+    }
+    
+    .fördjupning_inriktningar_text2 {
+        font-size: 300%;
+    }
+
+    .M {
+        font-size: 300%;
+    }
+    .KD {
+        font-size: 300%;
+    }
+
+    .SD {
+        font-size: 300%;
+    }
+
+    .CDU {
+        font-size: 300%;
+    }
+
+    .CSU {
+        font-size: 300%;
+    }
+
+    .Tories {
+        font-size: 300%;
+    }
+
+    .LR {
+        font-size: 300%;
+    }
+
+    .ÖVP {
+        font-size: 300%;
+    }
+
+    .PP {
+        font-size: 300%;
+    }
+
+    .GOP {
+        font-size: 300%;
+    }
+    
+    .Fidesz {
+        font-size: 300%;
+    }
+
+    .PiS {
+        font-size: 300%;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .header a {
+        font-size: 250%;
+    }
+
+    .content_index {
+        display: grid;
+        grid-template-columns: 800px 1fr;
+        grid-template-rows: 480 1fr;
+    }
+
+    .index_img img {
+        width: 750px;
+        height: auto;
+    }
+
+    .index_text {
+        font-size: 250%;
+    }
+    
+    .index_link {
+        font-size: 250%;
+    }
+
+    .history_img figcaption {
+        font-size: 200%;
+    }
+
+    .history_text p {
+        font-size: 250%;
+    }
+
+    .inriktningar a {   
+        font-size: 250%;
+    }
+
+    .inriktningar_info {
+        font-size: 250%;
+    }
+    
+    .inriktningar_lk {
+        font-size: 250%;
+    }
+    
+    .inriktningar_sk {
+        font-size: 250%;
+    }
+    
+    .inriktningar_kk {
+        font-size: 250%;
+    }
+    
+    .inriktningar_fk {
+        font-size: 250%;
+    }
+
+    .fördjupning_inriktningar_content {
+        grid-template-columns: 850px 1fr;
+    }
+
+    .fördjupning_inriktningar_img img {
+        width: 800px;
+        height: auto;
+    }
+
+    .fördjupning_inriktningar_img figcaption {
+        font-size: 150%;
+    }
+    
+    .fördjupning_inriktningar_text1 {
+        font-size: 250%;
+    }
+    
+    .fördjupning_inriktningar_text2 {
+        font-size: 250%;
+    }
+
+    .M {
+        font-size: 250%;
+    }
+    .KD {
+        font-size: 250%;
+    }
+
+    .SD {
+        font-size: 250%;
+    }
+
+    .CDU {
+        font-size: 250%;
+    }
+
+    .CSU {
+        font-size: 250%;
+    }
+
+    .Tories {
+        font-size: 250%;
+    }
+
+    .LR {
+        font-size: 250%;
+    }
+
+    .ÖVP {
+        font-size: 250%;
+    }
+
+    .PP {
+        font-size: 250%;
+    }
+
+    .GOP {
+        font-size: 250%;
+    }
+    
+    .Fidesz {
+        font-size: 250%;
+    }
+
+    .PiS {
+        font-size: 250%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .body {
+        grid-template-rows: 150px 1fr 50px;
+    }
+
+    .slide {
+        background-color: #40cac5;
+        width: 450px;
+        height: 150px;
+        position: relative;
+        
+        position: fixed;
+        top: -150px;
+        right: 0;
+        
+        transition: .3s ease-in-out;
+    }
+
+    .slide a {
+        font-size: 175%;
+    }
+    
+    .slide span {
+        display: block;
+        height: 50px;
+        width: 50px;
+        font-size: 200%;
+        
+        position: absolute;
+        right: 50px;
+        top: 150px;
+
+        display: flex;
+        justify-content: center;
+    }
+    
+    .open {
+        top: 0;
+    }
+
+    .header img {
+        width: 100px;
+        height: auto;
+        margin: 10px;
+    }
+
+    .header a {
+        font-size: 150%;
+    }
+
+    .content_index {
+        display: grid;
+        grid-template-columns: 650px 1fr;
+        grid-template-rows: 480 1fr;
+    }
+
+    .index_img img {
+        width: 600px;
+        height: auto;
+    }
+
+    .index_text {
+        font-size: 100%;
+    }
+    
+    .index_link {
+        font-size: 100%;
+    }
+
+    .history_img img {
+        width: 300px;
+        height: auto;
+    }
+
+    .history_img figcaption {
+        font-size: 100%;
+    }
+
+    .history_text p {
+        font-size: 100%;
+    }
+
+    .inriktningar_content {
+        grid-template-rows: 100px 50px repeat(4, 1fr);
+    }
+
+    .inriktningar a {   
+        font-size: 100%;
+    }
+
+    .inriktningar_info {
+        font-size: 100%;
+    }
+    
+    .inriktningar_lk {
+        font-size: 100%;
+    }
+    
+    .inriktningar_sk {
+        font-size: 100%;
+    }
+    
+    .inriktningar_kk {
+        font-size: 100%;
+    }
+    
+    .inriktningar_fk {
+        font-size: 100%;
+    }
+
+    .fördjupning_inriktningar_content {
+        grid-template-columns: 850px 1fr;
+    }
+
+    .fördjupning_inriktningar_img img {
+        width: 800px;
+        height: auto;
+    }
+
+    .fördjupning_inriktningar_img figcaption {
+        font-size: 100%;
+    }
+    
+    .fördjupning_inriktningar_text1 {
+        font-size: 100%;
+    }
+    
+    .fördjupning_inriktningar_text2 {
+        font-size: 100%;
+    }
+
+    .M {
+        font-size: 100%;
+    }
+    .KD {
+        font-size: 100%;
+    }
+
+    .SD {
+        font-size: 100%;
+    }
+
+    .CDU {
+        font-size: 100%;
+    }
+
+    .CSU {
+        font-size: 100%;
+    }
+
+    .Tories {
+        font-size: 100%;
+    }
+
+    .LR {
+        font-size: 100%;
+    }
+
+    .ÖVP {
+        font-size: 100%;
+    }
+
+    .PP {
+        font-size: 100%;
+    }
+
+    .GOP {
+        font-size: 100%;
+    }
+    
+    .Fidesz {
+        font-size: 100%;
+    }
+
+    .PiS {
+        font-size: 100%;
+    }
 }

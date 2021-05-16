@@ -73,3 +73,6 @@
 10 Maj: Spenderade hela lektionen med att leta upp logotyper att använda för partierna under partifliken där jag var tvungen att höra mig av till både Conservatives i Storbritannien och Sverigedemokraterna här i Sverige, hann inte göra något rent kod mässigt.  
 
 15 Maj: Jag tänkte lägga in loggorna för partierna men på grund av att jag inte visste kring användandet och att jag inte har fåttnågot svar på mina mail så jag valde att sätta in partifärgen som bakgrund för rubrikerna vid partierna. Jag gjorde även färdig resten av partisidan och fixade färgen på inriktningssidan. Ska göra färdigt grundkoden imorgon.
+
+16 Maj:
+    Pass 1: Jag fixade till upplösningarna för 4k, 1440p, 1080p och 720p. Jag fixade ävn till lite i navbaren som att ta bort den jobbig skuggan. Är snart helt färdig, tar nu en paus och kommer återvända och göra färdigt koden senare idag.
