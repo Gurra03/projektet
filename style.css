@@ -124,6 +124,13 @@ body{
 .index_link {
     grid-area: il;
     font-size: 350%;
+    display: flex;
+    flex-direction: column;
+}
+
+.index_link a {
+    color: black;
+    cursor: pointer;
 }
 
 /*HISTORIA*/
@@ -165,6 +172,10 @@ body{
 
 .history_text {
     grid-area: ht;
+}
+
+.history_text h2 {
+    font-size: 350%;
 }
 
 .history_text p {
@@ -471,6 +482,10 @@ body{
         font-size: 250%;
     }
 
+    .history_text h2 {
+        font-size: 300%;
+    }
+
     .history_text p {
         font-size: 300%;
     }
@@ -628,11 +643,11 @@ body{
     }
 
     .index_text {
-        font-size: 100%;
+        font-size: 150%;
     }
     
     .index_link {
-        font-size: 100%;
+        font-size: 150%;
     }
 
     .history_content {
@@ -649,8 +664,12 @@ body{
         font-size: 75%;
     }
 
+    .history_text h2 {
+        font-size: 150%;
+    }
+
     .history_text p {
-        font-size: 100%;
+        font-size: 150%;
     }
 
     .inriktningar_content {
@@ -668,27 +687,27 @@ body{
     }
 
     .inriktningar a {   
-        font-size: 100%;
+        font-size: 150%;
     }
 
     .inriktningar_info {
-        font-size: 100%;
+        font-size: 150%;
     }
     
     .inriktningar_lk {
-        font-size: 100%;
+        font-size: 150%;
     }
     
     .inriktningar_sk {
-        font-size: 100%;
+        font-size: 150%;
     }
     
     .inriktningar_kk {
-        font-size: 100%;
+        font-size: 150%;
     }
     
     .inriktningar_fk {
-        font-size: 100%;
+        font-size: 150%;
     }
 
     .fördjupning_inriktningar_img figcaption {
@@ -696,58 +715,58 @@ body{
     }
     
     .fördjupning_inriktningar_text1 {
-        font-size: 100%;
+        font-size: 150%;
     }
     
     .fördjupning_inriktningar_text2 {
-        font-size: 100%;
+        font-size: 150%;
     }
 
     .M {
-        font-size: 100%;
+        font-size: 150%;
     }
     .KD {
-        font-size: 100%;
+        font-size: 150%;
     }
 
     .SD {
-        font-size: 100%;
+        font-size: 150%;
     }
 
     .CDU {
-        font-size: 100%;
+        font-size: 150%;
     }
 
     .CSU {
-        font-size: 100%;
+        font-size: 150%;
     }
 
     .Tories {
-        font-size: 100%;
+        font-size: 150%;
     }
 
     .LR {
-        font-size: 100%;
+        font-size: 150%;
     }
 
     .ÖVP {
-        font-size: 100%;
+        font-size: 150%;
     }
 
     .PP {
-        font-size: 100%;
+        font-size: 150%;
     }
 
     .GOP {
-        font-size: 100%;
+        font-size: 150%;
     }
     
     .Fidesz {
-        font-size: 100%;
+        font-size: 150%;
     }
 
     .PiS {
-        font-size: 100%;
+        font-size: 150%;
     }
 }
 
@@ -824,6 +843,10 @@ body{
     }
 
     .history_img figcaption {
+        font-size: 100%;
+    }
+
+    .history_text h2 {
         font-size: 100%;
     }
 
