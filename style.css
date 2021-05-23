@@ -101,7 +101,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
     grid-template-columns: 1500px 1fr;
-    grid-template-rows: 950 1fr;
+    grid-template-rows: 950px 1fr;
     grid-template-areas: 
     "ib it"
     "il it";
@@ -248,7 +248,7 @@ body{
 .fördjupning_inriktningar_content {
     display: grid;
     grid-template-columns: 1750px 1fr;
-    grid-template-rows: 150px repeat(2, 1fr);
+    grid-template-rows: 150px 1fr auto;
     grid-template-areas:
     "il il" 
     "fb ft1"
@@ -263,7 +263,6 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    column-span: 1 / -1;
 }
 
 .fördjupning_inriktningar_img {
@@ -292,8 +291,11 @@ body{
 .fördjupning_inriktningar_text2 {
     grid-area: ft2;
     font-size: 350%;
-    column-span: 1 / -1;
     padding: 10px;
+}
+
+.fördjupning_inriktningar_text2 ol {
+    margin: 10px;
 }
 
 /*PARTIER*/
@@ -451,6 +453,18 @@ body{
 .footer {
     grid-area: f;
     background-color: #737373;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer a{
+    color: white;
+}
+
+.Om {
+    font-size: 350%;
 }
 
 /*UPPLÖSNING 2K*/
@@ -462,7 +476,7 @@ body{
     .content_index {
         display: grid;
         grid-template-columns: 1050px 1fr;
-        grid-template-rows: 635 1fr;
+        grid-template-rows: 635px 1fr;
     }
 
     .index_img img {
@@ -581,6 +595,11 @@ body{
     .PiS {
         font-size: 300%;
     }
+
+    .Om {
+        font-size: 300%;
+    }
+    
 }
 
 /*UPPLÖSNING 1080p*/
@@ -634,7 +653,7 @@ body{
     .content_index {
         display: grid;
         grid-template-columns: 550px 1fr;
-        grid-template-rows: 480 1fr;
+        grid-template-rows: 480px 1fr;
     }
 
     .index_img img {
@@ -677,7 +696,7 @@ body{
     }
 
     .fördjupning_inriktningar_content {
-        grid-template-rows: 100px repeat(2, 1fr);
+        grid-template-rows: 100px repeat(2, auto);
         grid-template-columns: 350px 1fr;
     }
 
@@ -768,6 +787,11 @@ body{
     .PiS {
         font-size: 150%;
     }
+
+    .Om {
+        font-size: 150%;
+    }
+    
 }
 
 /*UPPLÖSNING 720p*/
@@ -821,7 +845,7 @@ body{
     .content_index {
         display: grid;
         grid-template-columns: 650px 1fr;
-        grid-template-rows: 480 1fr;
+        grid-template-rows: 480px 1fr;
     }
 
     .index_img img {
@@ -883,11 +907,11 @@ body{
     }
 
     .fördjupning_inriktningar_content {
-        grid-template-columns: 850px 1fr;
+        grid-template-columns: 450px 1fr;
     }
 
     .fördjupning_inriktningar_img img {
-        width: 800px;
+        width: 400px;
         height: auto;
     }
 
@@ -947,6 +971,10 @@ body{
     }
 
     .PiS {
+        font-size: 100%;
+    }
+
+    .Om {
         font-size: 100%;
     }
 }
@@ -1142,7 +1170,7 @@ body{
 
     .fördjupning_inriktningar_content {
         grid-template-columns: auto;
-        grid-template-rows: 100px repeat(3, 1fr);
+        grid-template-rows: 100px repeat(3, auto);
         grid-template-areas:
         "il" 
         "fb" 
