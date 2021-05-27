@@ -115,7 +115,32 @@ Det kan då vara bra att kolla igenom koden för att se om något suspekt finns 
 
 Men det kan inte vara skadlig kod utan användardata kan skickas till den som skapat koden, detta likt att kodskaparen har implanterat skadlig kod sätter en stor risk hos de som besöker hemsidan. Det kan även vara att de sätter in kod som spionerar på en själv men även andra på hemsidan.
 
-Det finns risker som det gäller att vara uppmärksam kring och agera vid behov.
+Det finns risker som det gäller att vara uppmärksam kring och agera vid behov. Den som skapade sidan och använde tredjepartskoden är den som hålls ansvarig om något går snätt, och om det råkar vara så att tredje parts koden som används samlar in data utan vetskap eller att den kommer med skadlig kod är det sidoskaparens ansvar för han/hon bestämde sig för att använda koden.
 
-## Upphovsrätt
+## Upphovsrätt och bilder
 
+Att tänka på upphovsrätten är viktig, särskilt när det kommer till offentliga sidor.
+
+### Vad är upphovsrätten?
+
+Upphovsrätten är en samling lagar och regleringar kring hur användandet och publicerandet av material, teckningar och videor får användas och publiceras. Material som är skyddat under upphovsrätten får inte publiceras utan upphovsmannens egna tillstånd. Reglerna kring när upphovsrätten upphör varierar frånl land till land men brukar vara fram till upphovsmannens död + 75-100 år.
+
+### Material på denna hemsida.
+
+Jag använde överväldigande gratis bilder från sidor som har upphovsrätt över bilder och tillsånd att använda bilderna. Det finns däremot vissa bilder som ska vara upphovsrättsskyddade men får användas gratis vid angivning av vart bilden är tagen eller att bilden faller under creative commons license.
+
+> Creative Commons licenses give everyone from individual creators to large institutions a standardized way to grant the public permission to use their creative work under copyright law. From the reuser’s perspective, the presence of a Creative Commons license on a copyrighted work answers the question, “What can I do with this work?
+
+[-Creative Commons hemsida](https://creativecommons.org/about/cclicenses/)
+
+Citate förklarar hur en Creative Commons licens fungerar och vad den gör. Alla bilder som faller under upphovsrättslagen som används på sidan har en creative common license. Den orginella tanken vid artikeln om [partier](https://gurra03.github.io/projektet/partier.html) var att bredvid texten om partierna sätta deras logga, men på grund av problem med att få tillstånd att använda loggorna valde jag att sätta partifärgerna som bakgrund på rubrikerna istället som en plan B.
+
+## Webbhotell
+
+Ett webhotell är en sida där man kan lagra filer och gör det lätt för användare att kunna publicera sina hemsidor på World Wide Web. Det finns många webbhotell ute på World Wide Web som man kan använda. Men alla är inte seriösa och man ska vara försiktig med vilket man väljer. 
+
+### GitHub
+
+GitHub är ett gratis webbhotell som ägs av Microsoft. Hotellet fungerar som en lagringsplats där man kan lagra källkod såsom skript och markdown filer. Med hjälp av GitHub Pages kan man på ett enkelt sätt lansera och skicka ut hemsidor på internet. Det finns möjlighet att betala och få yttligare förmåner som kommer med sidan. Eftersom GithHub ägs av Microsoft kan den trots att hotellet är gratis kan den vara mer pålitligt då vi vet att servarna är säker och supporten är bra. Det blir en äelig spelare på spelplanen.
+
+### Loopia
