@@ -144,3 +144,31 @@ Ett webhotell är en sida där man kan lagra filer och gör det lätt för anvä
 GitHub är ett gratis webbhotell som ägs av Microsoft. Hotellet fungerar som en lagringsplats där man kan lagra källkod såsom skript och markdown filer. Med hjälp av GitHub Pages kan man på ett enkelt sätt lansera och skicka ut hemsidor på internet. Det finns möjlighet att betala och få yttligare förmåner som kommer med sidan. Eftersom GithHub ägs av Microsoft kan den trots att hotellet är gratis kan den vara mer pålitligt då vi vet att servarna är säker och supporten är bra. Det blir en äelig spelare på spelplanen.
 
 ### Loopia
+
+Loopia är ett webbhotell som ägs av Axcel. De erbjuder ett sätt förvara filer med sitt webbhotell och skapar både möjlighet att bygga en egen hemsida men även anförskaffa domännamn till ens hemsida. Till skillnad från GitHub kostar det att använda deras tjänster. Priset för webbhotellet är 89 kr/månad, men de erbjuder 39 kr/månaden under det första året. 2019 var de inblandande i en kontrovers där det ska ha sagts att de har skickat ut bluffakturor till sina kunder och användare. Det har även sagts att deras support ska vara bra men det är långa väntetider. Flera av deras tjänster ligger bakom betalningar, ett exempel är deras SSL/https paket. 
+
+## Teckenkod
+
+Teckenkodningen som är standard och alltid bör användas är UTF-8. Om UTF-8 inte anges korrekt kan det skapa problem med sidan att bokstäver och tecken inte visas på rätt sätt. Det som blir det stora problemet då är att alla kan inte läsa bokstäver som t.ex. åäö kan så inte se hemsidan på det sätet som det ska visas. Det enklaste sättet att fixa en felangiven teckenkodning är att ange den rätta kodningen som exempel UTF-8.
+
+Anledningen till att UTF-8 ska användas i alla lägen är att den teckenkodningen täcker nästan alla bokstäver och därför blir det enklast att sättet att skriva innehållet på hemsidan. Exempel ska man skriva ut meningen "Jag älskar att äta och göra kakor" men anger fel teckenkod kan det se ut så här "Jag Ã¤lskar att Ã¤ta och gÃ¶ra kakor".
+
+Med en hel hemsida där vissa bokstäver inte visas ovh görs väldigt svår att läsa kommer bidra till att sidan inte blir användbar. Inte nog med att den kan bli svårtydd så kan den även få problem med att bli indexerad i sökningar då de rätta tecknen inte visas upp.
+
+## Etik och Intigritet
+
+Etik och integritet är väldigt viktigt på internet. Särskilt delen med integritet. Precis som i den analoga världen ska alla ha tillgång och möjlighet till att bibehålla sin integritet. Insamlandet av användardata som företag gör nu är oetiskt, man får inget privatliv och man får inte reda på vart ens data hamnar. Begreppet integritet och etik är väldigt stort och allting kan inte tas upp här. 
+
+Det kanske största inskränkingen på den personliga integriteten på nätet är företagen som samlar in massiva mängder data om användaren, det kan vara allt från personlig data som namn, ålder och land till data som sökhistorik och de sidor man varit inne på. Det många företag gör då är att skicka den datan vidare till tredje parts företag och annonsörer som då skickar personaliserade annonser och reklam till användaren. Det brukar därför oftast skämta att Google vet mer om dig än dina föräldrar. 
+
+Denna intensiva spårning av användardata och det folk gör på internet kan visa sig vara en stor risk för användaren. Datan som samlas in skulle kunna användas av auktoritära regimer för att spåra deras medborgare och se till att motståndare till deras regim inte kan uttrycka sina åsikter. 
+
+Ett stort exempel är om ett företag samlar in en mängd känslig data och de utsätts för ett intrång av hackers. Den datan kan då läckas ut och användas i bland annat utpressningssyfte. Det är därför väldigt viktigt att känslig och personlig datan hålls säker, det kan vara användandet av längre och komplicerade lösenord. Ettbra sätt att hantera lösenord är att sätta in dem i en krypterad lösenordshantera som t.ex. iPin som krypterar lösenorden och låses endast upp med en kod in till appen.
+
+## Utvärdering
+
+Sidan tycker jag generellt sett blev väldigt bra. Jag är stolt över att jag kunde få färdigt den, den är anpassad efter flera upplösningar som 4k, 1440p, 1080p och mobiler. Sidan fungerar bra på alla stora moderna webbläsare som Chrome, Edge, Safari, Firefox men även Internet Explorer. Jag förde en logg på vad jag gjorde vilket kunde leda till att jag bland annat kunde hålla koll på de nuvrande problem som fanns med hemsidan.
+
+Ett av de största problemen som jag mötte var dock CSS koden som inte alltid ville fungera, den bliv tillslut så lång att jag hade svårt att rensa koden utan att veta vad som kommer förstöra och vad som kommer hjälpa. Det ledde till att jag var tvungen att skriva om hela CSS koden vilket drog värdefull tid som jag kunde ha användt till förbättringar och finputsning på koden för att få sidan att se bättre ut eller fungera bättre på tidigare versioner av Google Chrome som exempel.
+
+Som sammanfattning, sidan fungerar som den ska. Hade några fel i valideringen som fixades till i både HTML koden och CSS koden. Sidan fungerar som den ska även om CSS koden kunde gjorts bättre för att sidan skulle vara snyggare att se på. Jag följde mig enligt upphovsrättsstandarder och lånade bara en kod som jag vet inte skulle komma med problem för sidan.  
